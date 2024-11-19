@@ -1,6 +1,6 @@
 import styles from "./styles.module.scss"
-import backgroundVideo from "../../assets/background_video.mp4"
-import profilePic from "../../../src/assets/profile_pic.jpeg"
+import backgroundVideo from "/background_video.mp4"
+import profilePic from "/profile_pic.jpeg"
 import { imagesCarroussel } from "../../database/workImages"
 import { RiInstagramFill, RiWhatsappFill } from "react-icons/ri"
 import { IoIosChatbubbles } from "react-icons/io"
