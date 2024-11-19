@@ -1,5 +1,4 @@
 import styles from "./styles.module.scss"
-import backgroundVideo from "/background_video.mp4"
 import profilePic from "/profile_pic.jpeg"
 import { imagesCarroussel } from "../../database/workImages"
 import { RiInstagramFill, RiWhatsappFill } from "react-icons/ri"
@@ -13,9 +12,6 @@ import "swiper/css/pagination"
 export const Body = () => {
   return (
     <div className={styles.container}>
-      <div className={styles.containerBackground}>
-        <video src={backgroundVideo} autoPlay muted loop playsInline />
-      </div>
       <div className={styles.containerProfile}>
         <div className={styles.profilePic}>
           <img src={profilePic} alt="" />
