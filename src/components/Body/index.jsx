@@ -1,5 +1,5 @@
 import styles from "./styles.module.scss"
-import backgroundVideo from "../../../src/assets/background_video.mp4"
+import backgroundVideo from "../../assets/background_video.mp4"
 import profilePic from "../../../src/assets/profile_pic.jpeg"
 import { imagesCarroussel } from "../../database/workImages"
 import { RiInstagramFill, RiWhatsappFill } from "react-icons/ri"
