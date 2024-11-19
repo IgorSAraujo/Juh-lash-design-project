@@ -1,0 +1,23 @@
+@import "./reset.scss";
+@import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap");
+
+:root {
+  //Background
+  --bg-infos: #f4fafd;
+
+  //Extras
+  --color-red: #cd0000;
+  --color-orange: #e67b02;
+  --color-black: #000000;
+  --color-gray: #292929;
+  --color-dark-gray: #161616;
+  --color-light-gray: #464646;
+
+  //Typography
+  --Roboto: "Roboto", sans-serif;
+  --Size-h1: clamp(1.563rem, 1.384rem + 0.893vw, 2.188rem);
+  --Size-h2: clamp(0.688rem, 0.491rem + 0.982vw, 1.375rem);
+  --Size-h3: clamp(0.688rem, 0.491rem + 0.982vw, 1.375rem);
+  --Size-pB: clamp(1rem, 0.714rem + 0.595vw, 1.25rem);
+  --Size-p: 1rem;
+}
