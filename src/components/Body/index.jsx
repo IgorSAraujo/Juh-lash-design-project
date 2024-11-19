@@ -14,7 +14,7 @@ export const Body = () => {
   return (
     <div className={styles.container}>
       <div className={styles.containerBackground}>
-        <video src={backgroundVideo} autoPlay muted loop playsInline />
+        <video src="/background_video.mp4" autoPlay muted loop playsInline />
       </div>
       <div className={styles.containerProfile}>
         <div className={styles.profilePic}>
