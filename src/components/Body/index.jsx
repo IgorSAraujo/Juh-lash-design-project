@@ -4,7 +4,7 @@ import { imagesCarroussel } from "../../database/workImages"
 import { RiInstagramFill, RiWhatsappFill } from "react-icons/ri"
 import { IoIosChatbubbles } from "react-icons/io"
 import { Swiper, SwiperSlide } from "swiper/react"
-import { EffectCoverflow, Pagination } from "swiper/modules"
+import { Autoplay, EffectCoverflow, Pagination } from "swiper/modules"
 import "swiper/css"
 import "swiper/css/effect-coverflow"
 import "swiper/css/pagination"
@@ -59,8 +59,12 @@ export const Body = () => {
             clickable: true,
             loop: true,
           }}
+          autoplay={{
+            delay: 1000, // Intervalo de tempo entre os slides
+            disableOnInteraction: false, // Não desativa o autoplay ao interagir com os slides
+          }}
           pagination={true}
-          modules={[EffectCoverflow, Pagination]}
+          modules={[EffectCoverflow, Pagination, Autoplay]}
           className="mySwiper"
         >
           {imagesCarroussel.map((image) => (
